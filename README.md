@@ -138,8 +138,7 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  > <div align="center">
  >  While managing all their units, the water level gradually rises in phases. Over a period of 20 minutes, the water rises four times until it covers approximately 80% of the playable area for the last 4 minutes. Every time the water level rises, 10 events are created at random positions within the playable area. 
  > 
- > The complexity of the game increases over time:
- > 
+ > The complexity of the game increases over time:   <br>
  > If the player does not perfectly handle all 10 events per round, they will accumulate over time.
  > Boats, which have less maneuverable space at the beginning of the game, become much more useful at the end. It's the opposite for cars.
  > <br>
