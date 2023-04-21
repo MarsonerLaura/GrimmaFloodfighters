@@ -45,7 +45,7 @@
  <li>Geodata Integration</li>
  <li>Buildingdata Integration</li>
  <li>UI Implementation</li>
- <li>Eventlog</li>
+ <li>Eventlog Implementation</li>
  <li>UI Elements Creation</li>
  <li>Menu/Results Implementation</li>
  <br>
