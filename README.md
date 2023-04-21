@@ -44,6 +44,7 @@
  <div>
  <img align="right" width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/230765192-b39e46c4-72d7-4557-a428-2d2454f0a9c4.gif">
  <br>
+  <br>
  <h1>Responsibilities</h1>
  <li>Geodata Integration</li>
  <li>Buildingdata Integration</li>
