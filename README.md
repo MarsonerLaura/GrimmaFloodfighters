@@ -251,7 +251,7 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  >  <img width="90%" height="auto" src="">
  >  </div>
  >  <br>
- 
+</details>  
  <details>
  <summary>Screens</summary>
  
