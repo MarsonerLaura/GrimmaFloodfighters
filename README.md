@@ -108,9 +108,15 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
 
  > <div align="center">
  > The player needs to dispatch their units to handle various types of events.
- > The following event requires the player to rescue individuals and transport them to a designated safe zone.
+ > The following event requires the player to rescue individuals and transport them to a designated safe zone. 
  > <br>
  > <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233663167-e5522ecd-db53-460d-92a7-fcd8aa0a9bc4.png">
+ > <br>
+ > <br>
+ > A designated safe zone to which the player must relocate the civilians.
+ > <br>
+ > <img width="60%" height="auto" src="https://user-images.githubusercontent.com/104200268/233665617-0458a5c9-ad7c-4276-9bd7-bfa632bd8786.gif">
+ > <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233665612-cfcd0945-592e-4162-8c8f-4ee170eba22e.png">
  > <br>
  > <br>
  > The following event requires the player to handle a car accident.
