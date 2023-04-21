@@ -103,21 +103,22 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
 <details>
  <summary>Events</summary>
  <br>
- 
- ![unuioknown](https://user-images.githubusercontent.com/104200268/233663167-e5522ecd-db53-460d-92a7-fcd8aa0a9bc4.png)
-![uiuonknown](https://user-images.githubusercontent.com/104200268/233663171-bec7d7eb-1e1a-4c80-b53b-1674101cfabb.png)
-![untzuknown](https://user-images.githubusercontent.com/104200268/233663185-a4143e4f-1670-4a36-b478-b54945ac2e5d.png)
 
  > <div align="center">
  > The player needs to dispatch their units to handle various types of events.
  > The following event requires the player to rescue individuals and transport them to a designated safe zone.
  > <br>
- > <img width="80%" height="auto" src="https://user-images.githubusercontent.com/104200268/230766835-b87e7a1a-8f41-4769-943c-2bda2dcc3b09.gif">
+ > <img width="60%" height="auto" src="https://user-images.githubusercontent.com/104200268/233663167-e5522ecd-db53-460d-92a7-fcd8aa0a9bc4.png">
  > <br>
  > <br>
- > Another tower available in the game is the SpeedBuffTower. When players are within its range, they receive a temporary increase in movement speed. However, this buff slowly diminishes once they move out of the tower's range. To indicate the buff's presence, particle effects appear around the players' feet.
+ > The following event requires the player to handle a car accident.
  > <br>
- > <img width="80%" height="auto" src="https://user-images.githubusercontent.com/104200268/230766837-7f5e5f79-af3c-4738-b6a6-315a465b65ca.gif">
+ > <img width="60%" height="auto" src="https://user-images.githubusercontent.com/104200268/233663171-bec7d7eb-1e1a-4c80-b53b-1674101cfabb.png">
+ > <br>
+ > <br>
+ > The following event requires the player to put out a fire that has broken out in a building.
+ > <br>
+ > <img width="60%" height="auto" src="https://user-images.githubusercontent.com/104200268/233663185-a4143e4f-1670-4a36-b478-b54945ac2e5d.png">
  > </div>
  > <br>
  
