@@ -63,7 +63,7 @@
  <li>Different Units</li>
  <li>Real Geodata</li>
  <li>Multiple Events</li>
- <li>Selfmade UI</li>
+ <li>Selfmade UI Elements</li>
  </div>
 </p>
 
