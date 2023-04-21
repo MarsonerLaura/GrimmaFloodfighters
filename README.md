@@ -25,11 +25,11 @@
  <img align="left" width="53%" height="auto" src="https://user-images.githubusercontent.com/104200268/230764988-25ede94c-ac1d-4e1a-b506-74f9dc4e0c7a.gif">
  <br>
  <h1>About</h1>
- <li><b>Role:</b>&emsp;&emsp;&emsp;&emsp;UI/UX Designer, Technical Artist, Programmer</li>
+ <li><b>Role:</b>&emsp;&emsp;&emsp;&emsp;UI/UX Designer, Programmer</li>
  <li><b>Duration:</b>&emsp;&emsp;2 Months</li>
  <li><b>Group Size:</b>&emsp;4</li>
  <li><b>Engine:</b>&emsp;&emsp;&nbsp;&nbsp;&nbsp;Unity</li>
- <li><b>Genre:</b>&emsp;&emsp;&emsp;&nbsp;Real-Time Strategy, Simulation, Micromanagement</li>
+ <li><b>Genre:</b>&emsp;&emsp;&emsp;&nbsp;Real-Time Strategy, Simulation</li>
  <li><b>Platform:</b>&emsp;&emsp;PC</li>
  <li><b>Context:</b>&emsp;&emsp;&nbsp;Open Real Time Games Workshop</li>
 </p>
