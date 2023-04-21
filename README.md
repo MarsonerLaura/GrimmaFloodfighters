@@ -1,7 +1,8 @@
 ![Banner](https://user-images.githubusercontent.com/104200268/233587636-d6d4ee91-62ee-42c5-87b9-a5accaf33c97.PNG)
 <p align="center">
 
- <i>GrimmaFloodfighters</i> is a local multiplayer tower defense game set in a vibrant steampunk world. As the game's main characters, two dwarfs must defend and free their island by strategically placing towers and defeating waves of enemies. Players can collect coins to upgrade their towers and gain an edge in battle.   
+ <i>GrimmaFloodfighters</i> is a real-time strategy game that demonstrates the successful integration of open geodata for disaster simulation. The city model in the game is based on publicly available geodata for the Saxony city of Grimma, where players can use floodfighter units, sandbags, boats, and emergency vehicles to rescue people and combat flood-related effects. The city model provides real-time thematic information to the emergency forces, making it a useful tool for disaster preparedness training.
+ <!-- GrimmaFloodfighters is a real-time strategy game that integrates open geodata for disaster simulation. Based on publicly available geodata for Grimma, players can utilize floodfighter units, sandbags, boats, and emergency vehicles to rescue people and combat flood-related effects. -->
 </p>         
 
 <br>
