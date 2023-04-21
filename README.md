@@ -34,6 +34,8 @@
  <li><b>Genre:</b>&emsp;&emsp;&emsp;&nbsp;Real-Time Strategy, Simulation</li>
  <li><b>Platform:</b>&emsp;&emsp;PC</li>
  <li><b>Context:</b>&emsp;&emsp;&nbsp;Open Real Time Games Workshop</li>
+ <li><b>Build:</b>&emsp;&emsp;&emsp;&nbsp;&nbsp;<a href=" https://lauramarsoner.itch.io/grimmafloodfighters">Itch.io</a></li>
+
 </p>
 
 <br>
