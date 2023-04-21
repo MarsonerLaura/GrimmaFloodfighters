@@ -47,9 +47,9 @@
   <br>
  <h1>Responsibilities</h1>
  <li>Geodata Integration</li>
- <li>Buildingdata Integration</li>
+ <li>Building-data Integration</li>
  <li>UI Implementation</li>
- <li>Eventlog Implementation</li>
+ <li>Event log Implementation</li>
  <li>UI Elements Creation</li>
  <li>Menu/Results Implementation</li>
  <br>
@@ -63,11 +63,11 @@
  <br>
  <h1>Features</h1>
  <li>Flood Simulation</li>
- <li>Ressource Management</li>
+ <li>Resource Management</li>
  <li>Different Units</li>
  <li>Real Geodata</li>
  <li>Multiple Events</li>
- <li>Selfmade UI Elements</li>
+ <li>Self made UI Elements</li>
  </div>
 </p>
 
@@ -148,7 +148,7 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  
 </details> 
 <details>
- <summary>Upgrades</summary>
+ <summary>Different Units</summary>
  <br>
  
  > <div align="center">
@@ -170,7 +170,7 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  
 </details> 
 <details>
- <summary>Local Multiplayer</summary>
+ <summary>HUD</summary>
  <br>
  
  > <div align="center">
@@ -186,7 +186,7 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  
 </details> 
 <details>
- <summary>Enemies</summary>
+ <summary>Resource Management</summary>
  <br>
 
  >  <div align="center">
@@ -202,304 +202,74 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  >  <br>
  
 </details> 
-<h2>Code Snippets</h2>
 
+<h2>UI Design</h2>
 <details>
- <summary>The SpawnManager script handles the Wavemanagement</summary>
+ <summary>Design Process</summary>
+ <br>
  
- > ```csharp
- > 
- > public class SpawnManager : MonoBehaviour
- > {
- >     [System.Serializable]
- >     private class EnemyToSpawn
- >     {
- >         public int enemyId;
- >         public float secondsUntilSpawn;
- >         public int spawnpointId;
- >     }
- >
- >     [System.Serializable]
- >     private class Wave
- >     {
- >         public float secondsUntilStart;
- >         public List<EnemyToSpawn> enemiesToSpawn = new List<EnemyToSpawn>();
- >     }
- >
- >     [SerializeField] private Transform parentOfEnemies;
- >
- >     [SerializeField] private EnemyMovementManager movementManager;
- >
- >     [SerializeField] private List<GameObject> spawnPoints = new List<GameObject>();
- >
- >     [SerializeField] private List<GameObject> enemies = new List<GameObject>();
- >
- >     [SerializeField] private List<Wave> waves = new List<Wave>();
- >
- >     [SerializeField] float countdown;
- >
- >     GameObject currentEnemyToSpawn;
- >     GameObject currentSpawnPoint;
- >     int nextEnemyToSpawnId;
- >     int currentWaveId;
- >     bool finished = false;
- >
- >     private void Awake()
- >     {
- >         if (waves.Count > 0)
- >         {
- >             if (waves[0].enemiesToSpawn.Count > 0)
- >             {
- >                 countdown = waves[0].secondsUntilStart + waves[0].enemiesToSpawn[0].secondsUntilSpawn;
- >                 currentEnemyToSpawn = enemies[waves[0].enemiesToSpawn[0].enemyId];
- >                 currentSpawnPoint = spawnPoints[waves[0].enemiesToSpawn[0].spawnpointId];
- >                 nextEnemyToSpawnId = 1;
- >                 currentWaveId = 0;
- >             }
- >             else
- >             {
- >                 Debug.Log("List of enemies to spawn is empty!");
- >             }
- >         }
- >         else
- >         {
- >             Debug.Log("List of waves is empty!");
- >         }
- >     }
- >
- >     void Update()
- >     {
- >         if (!finished)
- >         {
- >             countdown -= Time.deltaTime;
- >             if (countdown <= 0)
- >             {
- >                 HandleWave();
- >             }
- >         }
- >     }
- >
- >     private void HandleWave()
- >     {
- >         //if current wave has no more enemies, set next wave and reset enemyToSpawn
- >         if (nextEnemyToSpawnId >= waves[currentWaveId].enemiesToSpawn.Count)
- >         {
- >             if (currentWaveId + 1 >= waves.Count)
- >             {
- >                 finished = true;
- >             }
- >             else
- >             {
- >                 currentWaveId++;
- >                 nextEnemyToSpawnId = 0;
- >                 countdown = waves[currentWaveId].secondsUntilStart;
- >                 SpawnEnemy();
- >             }
- >         }
- >         else
- >         {
- >             SpawnEnemy();
- >         }
- >     }
- >
- >     /*
- >      * Spawns currentEnemyToSpawn at currentSpawnPoint
- >      * Sets countdown, currentEnemyToSpawn and currentSpawnPoint to next in enemiesToSpawn
- >      * Sets finished to true if the end of the list is reached
- >      */
- >     private void SpawnEnemy()
- >     {
- >         //Spawn Enemy at SpawnPoint
- >         currentEnemyToSpawn.transform.position = currentSpawnPoint.transform.position;
- >         GameObject instantiatedEnemie = Instantiate(currentEnemyToSpawn,parentOfEnemies);
- >
- >         //Move Enemy
- >         EnemyMovementSubscriber instantsOfMovement = instantiatedEnemie.GetComponent<EnemyMovementSubscriber>();
- >         instantsOfMovement.Pathnr = spawnPoints.IndexOf(currentSpawnPoint);
- >         instantsOfMovement.MovementManager = movementManager;
- >         instantsOfMovement.Subscribe();
- >
- >         //check if endOfList is reached 
- >         if (nextEnemyToSpawnId >= waves[currentWaveId].enemiesToSpawn.Count)
- >         {
- >             Debug.Log("No enemies in this wave.");
- >         }
- >         //else update variables
- >         else
- >         {
- >             EnemyToSpawn nextEnemy = waves[currentWaveId].enemiesToSpawn[nextEnemyToSpawnId];
- >             countdown += nextEnemy.secondsUntilSpawn;
- >             if (enemies.Count > nextEnemy.enemyId)
- >             {
- >                 currentEnemyToSpawn = enemies[nextEnemy.enemyId];
- >             }
- >             else
- >             {
- >                 Debug.Log("Id of next enemy to spawn greater than the size of the list of enemies.");
- >             }
- >             if (spawnPoints.Count > nextEnemy.spawnpointId)
- >             {
- >                 currentSpawnPoint = spawnPoints[nextEnemy.spawnpointId];
- >             }
- >             else
- >             {
- >                 Debug.Log("Id of next spawnPoint greater than the size of the list of spawnPoints.");
- >             }
- >             nextEnemyToSpawnId++;
- >         }
- >     }
- > }
- > ```
-</details>
+ >  <div align="center">![MainMenuIngame](https://user-images.githubusercontent.com/104200268/233670095-1bf87072-432e-4dac-b517-b9c0d951ba01.png)
+![OptionsMeu](https://user-images.githubusercontent.com/104200268/233670100-4986f48b-049d-4752-86d8-14e219ab1901.png)
+![GameScreen](https://user-images.githubusercontent.com/104200268/233670103-2bf36d3d-8c4d-42bd-8b1d-1319f3e40b38.png)
+![MainMenu](https://user-images.githubusercontent.com/104200268/233670115-23621df5-6ff7-4652-957a-0274d94f6c13.png)
+
+ >  First Concepts of Menus & HUD
+ >  <img width="80%" height="auto" src="">
+ >  <img width="80%" height="auto" src="">
+ >  <img width="80%" height="auto" src="">
+ >  <img width="80%" height="auto" src="">
+ > </div>
+ > <br>
+ 
+</details> 
+<details>
+ <summary>Elements</summary>
+ <br>
+ ![GrimmaUI2](https://user-images.githubusercontent.com/104200268/233670154-21147e12-1a3f-490f-a8d9-eb9f8a567a71.png)
+
+ >  <div align="center">
+ >  Different UI Elements that are used in the game inkluding Buttons, Panels, Bars and Checkboxes.
+ >  <img width="80%" height="auto" src="">
+ > </div>
+ > <br>
+ 
+</details> 
+<details>
+ <summary>Menus</summary>
+ 
+ >  <div align="center">
+ >  Main Menu
+ >  <br>
+ >  <img width="90%" height="auto" src="">
+ >  <br>
+ >  Settings
+ >  <br>
+ >  <img width="90%" height="auto" src="">
+ >  <br>
+ >  Credits
+ >  <br>
+ >  <img width="90%" height="auto" src="">
+ >  </div>
+ >  <br>
+ 
  <details>
- <summary>Editortool to increase Coins during Runtime to test Upgrades</summary>
- 
- > ```csharp
- > 
- > public class CoinIncrease : EditorWindow
- > {
- >     int coinCount = 0;
- >
- >     [MenuItem("Tools / Add Coins")]
- >     public static void ShowWindow()
- >     {
- >         EditorWindow.GetWindow(typeof(CoinIncrease));
- >     }
- >
- >     private void OnGUI()
- >     {
- >         GUILayout.Label("Base Settings", EditorStyles.boldLabel);
- >         coinCount = EditorGUILayout.IntField("Coin Count", coinCount);
- >         GUI.backgroundColor = Color.red;
- >
- >         GUILayout.FlexibleSpace();
- >         EditorGUILayout.BeginHorizontal();
- >         GUILayout.FlexibleSpace();
- > 
- >         if(GUILayout.Button("Reset", GUILayout.Width(100), GUILayout.Height(30)))
- >         {
- >             reset();
- >         }
- >
- >         if (GUILayout.Button("Apply", GUILayout.Width(100), GUILayout.Height(30)))
- >         {
- >             CoinBag.IncreaseCoinCount(coinCount);
- >             reset();
- >         }
- >
- >         EditorGUILayout.EndHorizontal();
- >     }
- >
- >     private void reset()
- >     {
- >         coinCount = 0;
- >     }
- > }
- >
- > ```
-</details>
- 
-<h2>Game Design Process</h2>
-<details>
- <summary>Story</summary>
- <br>
+ <summary>Screens</summary>
  
  >  <div align="center">
- >  The story of the game evolves around two dwarf friend engineers that visit their home island and discover that it was run over by an evil force that controlls undead. They start their adventure to collect mechanical parts to construct a big robot that should protect the island. On their jouney they need to defeat different enemies and help bewohners to get to the parts.
- >  <img width="80%" height="auto" src="https://user-images.githubusercontent.com/104200268/229501634-84a928f9-61c4-413d-9cd1-616d261749a8.png">
- > </div>
- > <br>
- 
-</details> 
-<details>
- <summary>Gameplay</summary>
- 
- > <details> 
- >  <summary>Towers</summary>
- >  <div align="center">
- >  Electro Tower Before
+ >  Loading Screen
  >  <br>
- >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/229517032-fa907571-e919-455f-9ae0-9d2885f9b976.gif">
+ >  <img width="90%" height="auto" src="">
  >  <br>
- >  Electro Tower After
+ >  Preleminary Results
  >  <br>
- >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/229517170-927ce515-75e3-4a05-a1cb-adbf21cfc0f6.gif">
+ >  <img width="90%" height="auto" src="">
  >  <br>
- >  Speed Tower Before
+ >  End Screen
  >  <br>
- >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/229516308-b7b7e6b4-65df-406a-a560-cf7fe25a60c1.gif">
- >  <br>
- >  Speed Tower After
- >  <br>
- >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/229505972-6821954c-7049-4531-aa9f-0194f42ef641.gif">
- >  </div>
- >  <br>
- > </details>
- 
- > <details> 
- >  <summary>Player-Tower Interaction</summary>
- >  <div align="center">
- >  In the game, players can pick up and place towers by pressing the corresponding key that appears on their screen. As it is a local multiplayer game, the key required for interaction varies depending on the player.
- >  <br>
- >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/229515511-1569be7d-8551-41d0-93f8-833a62f2ff9c.gif">
- >  </div>
- >  <br>
- > </details>
- > <details> 
- >  <summary>Collect Coins</summary>
- >  <div align="center">
- >  Players can gather coins by simply running over them, which can then be utilized to purchase upgrades for their towers.
- >  <br>
- >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/229505912-eed1e5df-42a1-4cf4-830d-ad9d248848bb.gif">
- >  </div>
- >  <br>
- > </details>
- 
-</details> 
-<details> 
- <summary>Tutorial</summary>
-
- >  <div align="center">
- >  <br>
- >  The tutorial for playing the game is shown in the image below.
- >  <br>
- >  <img width="100%" height="auto" src="https://user-images.githubusercontent.com/104200268/233660417-c3dc4e6e-2209-436b-b31f-91ea6828fec1.jpg">
- >  </div>
+ >  <img width="90%" height="auto" src="">
  >  <br>
  
-</details> 
- 
-<details>
- <summary>Level Design Process</summary>
- <br>
- 
- >  <div align="center">
- >  Initial Prototype
- >  <img width="100%" height="auto" src="https://user-images.githubusercontent.com/104200268/229474718-86156057-936e-4639-b6be-1a7d6a493a5e.png">
- >  <br>
- >  Assets
- >  <br>
- >  <img width="100%" height="auto" src="https://user-images.githubusercontent.com/104200268/229474782-e6695b85-f3e6-4623-8396-6aead4a1f96c.png">
- >  <br>
- >  Light Baking & Post Processing
- >  <br>
- >  <img width="100%" height="auto" src="https://user-images.githubusercontent.com/104200268/229475909-ef819f0a-e923-4740-a429-5398f32dfae7.png">
- >  <br>
- >  Details and VFX
- >  <br>
- >  <img width="100%" height="auto" src="https://user-images.githubusercontent.com/104200268/229474831-79b7d189-cb4f-40b7-974a-66b3c3f88579.png">
- >  <br>
- >  Level Design Decisions
- >  <br>
- >  <img width="100%" height="auto" src="https://user-images.githubusercontent.com/104200268/229474892-b776e17d-a615-4828-b3a2-87927df9e119.png">
- >  <br>
- >  <img width="100%" height="auto" src="https://user-images.githubusercontent.com/104200268/229474863-518e66ce-d1a3-4353-bbc2-cc07bb774243.png">
- >  <br>
- >  <img width="100%" height="auto" src="https://user-images.githubusercontent.com/104200268/229475961-e0ff54cf-c4d2-4bed-8c6c-75bfaab2eed1.png">
- > </div>
- > <br>
- 
-</details> 
+ </details>
  
  <h2>Achievements</h1>
  
