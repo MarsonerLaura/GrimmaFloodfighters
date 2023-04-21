@@ -440,62 +440,15 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  
 </details> 
 <details> 
- <summary>Tools</summary>
- 
- > <details> 
- >  <summary>Enemy Prefab Creation</summary>
+ <summary>Tutorial</summary>
+
  >  <div align="center">
  >  <br>
- >  The game development tool simplifies the process of creating new enemies by allowing for the configuration of all essential variables in a single window. If not specified, the tool automatically creates a prefab variant with default values. Developers can select a name and input their desired values for the new enemy, and the tool will adjust the variables in the scripts accordingly, producing a new prefab variant of the base enemy with the altered values.
+ >  The tutorial for playing the game is shown in the image below.
  >  <br>
- >  <img width="70%" height="auto" src="https://user-images.githubusercontent.com/104200268/229503608-927cfed7-3d73-4657-a142-e3d01d6c657a.png">
+ >  <img width="100%" height="auto" src="https://user-images.githubusercontent.com/104200268/233660417-c3dc4e6e-2209-436b-b31f-91ea6828fec1.jpg">
  >  </div>
  >  <br>
- > </deatails>
- 
- > <details> 
- >  <summary>Coin Increaser</summary>
- >  <div align="center">
- >  <br>
- >  Developers can use this tool to add coins during runtime, making it ideal for testing the upgrade function without needing to collect a significant amount of coins. This can accelerate the testing process and streamline the development cycle.
- >  <br>
- >  <img width="70%" height="auto" src="https://user-images.githubusercontent.com/104200268/230770557-3e53463a-f7e6-4a99-9914-6b0d503bcc5a.png">
- >  </div>
- >  <br>
- > </details>
- 
- > <details> 
- >  <summary>Wave Manager</summary>
- >  <div align="center">
- >  <br>
- >  The tool is utilized to configure enemy wave spawning for the game's various levels, allowing developers to create challenging and engaging gameplay experiences for players.
- >  <br>
- >  <img width="70%" height="auto" src="https://user-images.githubusercontent.com/104200268/229503687-a79e35d8-4ac1-4047-9ebb-5c0f7ed9c445.png">
- >  </div>
- >  <br>
- > </details>
- 
- > <details> 
- >  <summary>Tower Radius Display</summary>
- >  <div align="center">
- >  <br>
- >  The tool is a valuable asset for developers, as it provides a visual representation of the range of towers. By updating the serialized radius variable, developers can quickly and easily adjust the tower range without having to change the script each time. This streamlines the development process and saves time, allowing for faster iteration and testing.
- >  <br>
- >  <img width="100%" height="auto" src="https://user-images.githubusercontent.com/104200268/230770309-c4e6a415-2113-4fe6-b184-144e43a316f1.gif">
- >  </div>
- >  <br>
- > </details>
- 
- > <details> 
- >  <summary>Object Spawner</summary>
- >  <div align="center">
- >  <br>
- >  Spawns a specified number of objects with random position, rotation, and scale. It checks for collisions and allows for the addition of a parent for the objects. The engine issues a warning if critical boxes are missing and disables the button in such cases.
- >  <br>
- >  <img width="70%" height="auto" src="https://user-images.githubusercontent.com/104200268/229503592-1c498c77-49b8-434a-8c7a-d58390f9f26d.png">
- >  </div>
- >  <br>
- > </deatails>
  
 </details> 
  
@@ -538,7 +491,7 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  <br>
   
  >  <div align="center">
- >  The poster, which showcased the project, was exhibited at the <a href="https://www.d-copernicus.de/infothek/veranstaltungen/nationales-forum-2022/">Nationales Forum für Fernerkundung und Copernicus 2022</a>. To view the poster, please follow the link provided:
+ >  The poster, which showcased the project, was exhibited at the <a href="https://www.d-copernicus.de/infothek/veranstaltungen/nationales-forum-2022/">Nationales Forum für Fernerkundung und Copernicus 2022</a>. To download the poster, please use the link below:
  > 
   > <a href="https://github.com/MarsonerLaura/GrimmaFloodfighters/files/11296479/1662305.1.pdf">Poster</a> 
  >  
