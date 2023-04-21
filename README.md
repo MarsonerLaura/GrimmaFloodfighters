@@ -11,7 +11,7 @@
  
  `Unity`
  `C#`
- `UnityCollab`
+ `GitHub`
  `Rider`
  `Blender`
  `Krita`
