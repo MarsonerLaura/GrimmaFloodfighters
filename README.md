@@ -101,12 +101,15 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
 <h2>Feature Descriptions</h2>
 
 <details>
- <summary>Towers</summary>
+ <summary>Events</summary>
  <br>
- 
+ ![unuioknown](https://user-images.githubusercontent.com/104200268/233663167-e5522ecd-db53-460d-92a7-fcd8aa0a9bc4.png)
+![uiuonknown](https://user-images.githubusercontent.com/104200268/233663171-bec7d7eb-1e1a-4c80-b53b-1674101cfabb.png)
+![untzuknown](https://user-images.githubusercontent.com/104200268/233663185-a4143e4f-1670-4a36-b478-b54945ac2e5d.png)
+
  > <div align="center">
- > The game includes various towers, each with unique abilities that players can pick up, move around, place strategically, and upgrade. Currently, there exist two distinct types of towers. 
- > The ElectroTower, launches projectiles at enemies to cause damage. 
+ > The player needs to dispatch their units to handle various types of events.
+ > The following event requires the player to rescue individuals and transport them to a designated safe zone.
  > <br>
  > <img width="80%" height="auto" src="https://user-images.githubusercontent.com/104200268/230766835-b87e7a1a-8f41-4769-943c-2bda2dcc3b09.gif">
  > <br>
