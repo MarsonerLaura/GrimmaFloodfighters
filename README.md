@@ -75,8 +75,7 @@
 
 ---
 
-
- <a href="https://www.youtube.com/watch?v=0X8kur32egw&ab_channel=LukasPichler" target="_blank"><img src="https://user-images.githubusercontent.com/104200268/230765521-6a3f6012-fe9d-456b-9aa7-8c7365a576cf.PNG" 
+ <a href="https://www.youtube.com/watch?v=94OLLy_y-BA&ab_channel=LukasPichler" target="_blank"><img src="https://user-images.githubusercontent.com/104200268/233655540-813f879f-da67-4666-b6ba-25e4548b294a.png" 
 alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="10" /></a>
 <br>
  <br>
@@ -86,7 +85,7 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
 <br>
 
  
-[![Watch Trailer on YouTube](https://img.shields.io/badge/Watch%20Trailer-FF0000?logo=youtube&style=for-the-badge)](https://www.youtube.com/watch?v=0X8kur32egw&ab_channel=LukasPichler) 
+[![Watch Trailer on YouTube](https://img.shields.io/badge/Watch%20Trailer-FF0000?logo=youtube&style=for-the-badge)](https://www.youtube.com/watch?v=94OLLy_y-BA&ab_channel=LukasPichler) 
 
 </div>
 
