@@ -536,13 +536,11 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  <details>
  <summary>Copernicus 2022</summary>
  <br>
-NATIONALES FORUM FÜR FERNERKUNDUNG UND COPERNICUS 2022
-
-
+  
  >  <div align="center">
- >  The project was displayed at the .
- > The poster, which showcased the project, was exhibited at the <a href="  https://www.d-copernicus.de/infothek/veranstaltungen/nationales-forum-2022/">Nationales Forum für Fernerkundung und Copernicus 2022</a>. To view the poster, please follow the link provided:
- > [1662305 (1).pdf](https://github.com/MarsonerLaura/GrimmaFloodfighters/files/11296479/1662305.1.pdf) 
+ >  The poster, which showcased the project, was exhibited at the <a href="https://www.d-copernicus.de/infothek/veranstaltungen/nationales-forum-2022/">Nationales Forum für Fernerkundung und Copernicus 2022</a>. To view the poster, please follow the link provided:
+ > 
+ > <a href="https://github.com/MarsonerLaura/GrimmaFloodfighters/files/11296479/1662305.1.pdf"/> 
  >  
  > <br>
  
