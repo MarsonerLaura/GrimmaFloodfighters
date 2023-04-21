@@ -1,5 +1,6 @@
-![DwarfTower-01](https://user-images.githubusercontent.com/104200268/229464486-eda42072-7438-4765-875d-38fe7483f765.png)
+![Banner](https://user-images.githubusercontent.com/104200268/233587636-d6d4ee91-62ee-42c5-87b9-a5accaf33c97.PNG)
 <p align="center">
+
  <i>GrimmaFloodfighters</i> is a local multiplayer tower defense game set in a vibrant steampunk world. As the game's main characters, two dwarfs must defend and free their island by strategically placing towers and defeating waves of enemies. Players can collect coins to upgrade their towers and gain an edge in battle.   
 </p>         
 
@@ -41,12 +42,12 @@
  <img align="right" width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/230765192-b39e46c4-72d7-4557-a428-2d2454f0a9c4.gif">
  <br>
  <h1>Responsibilities</h1>
- <li>Level Design</li>
- <li>Wavemanager implementation</li>
- <li>Enemies (Creation Tool, Animations)</li>
- <li>Towers (Attacks, Animations, VFX)</li>
- <li>Light baking & Post Processing</li>
- <li>Prototyping</li>
+ <li>Geodata Integration</li>
+ <li>Buildingdata Integration</li>
+ <li>UI Implementation</li>
+ <li>Eventlog</li>
+ <li>UI Elements Creation</li>
+ <li>Menu/Results Implementation</li>
  <br>
  </div>
 </p>
@@ -57,12 +58,12 @@
  <br>
  <br>
  <h1>Features</h1>
- <li>Local Multiplayer</li>
- <li>Various Towers</li>
- <li>Collect Coins</li>
- <li>Upgrade Towers</li>
- <li>Multiple Enemies</li>
- <li>Editor Tools</li>
+ <li>Flood Simulation</li>
+ <li>Ressource Management</li>
+ <li>Different Units</li>
+ <li>Real Geodata</li>
+ <li>Multiple Events</li>
+ <li>Selfmade UI</li>
  </div>
 </p>
 
