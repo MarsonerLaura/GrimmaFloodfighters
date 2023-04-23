@@ -284,19 +284,22 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  <summary>Menus</summary>
  
  >  <div align="center">
- >  Main Menu
- >  <br>
- >  <img width="90%" height="auto" src="">
- >  <br>
- >  Settings
- >  <br>
- >  <img width="90%" height="auto" src="">
- >  <br>
- >  Credits
- >  <br>
- >  <img width="90%" height="auto" src="">
- >  </div>
- >  <br>
+ > The main menu provides players with several options, including the ability to start playing the game, configure game settings, view the credits, and exit the game.
+ > <br>
+ > <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/233827697-bfdd6ac4-4ff9-442c-9c2b-c881ad1246b0.PNG">
+ > <br>
+ > <br>
+ > The options menu allows players to customize various game settings to suit their preferences and enhance their gaming experience. This includes the ability to adjust the volume of the game, toggle fullscreen mode, select the resolution, and adjust the graphics quality. By providing these customizable options, the game can be tailored to the player's individual preferences and hardware capabilities, ensuring optimal performance and enjoyment.
+ > <br>
+ > <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/233827814-abf1a985-4754-45b9-80ee-d8840f18594e.PNG">
+ > <br>
+ > <br>
+ > The credits window provides players with information about the development team and the assets used in the game. This includes the names of the developers, Chris, Simon, Paul, and myself, who created the game during the Open Real Time Games Workshop. Additionally, the credits acknowledge the cooperation of Tobias Seber from EOXPLORE and Gunter Zeug and Kirill Volter from Terranea, who contributed to the development of the game.
+ > <br>
+ > <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/233827817-ca42933e-bc1b-4a3e-aaef-6d347040ddb2.PNG">
+ > </div>
+ > <br>
+ 
 </details>  
  <details>
  <summary>Screens</summary>
