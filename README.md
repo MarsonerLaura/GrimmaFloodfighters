@@ -305,17 +305,19 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  <summary>Screens</summary>
  
  >  <div align="center">
- >  Loading Screen
+ >  The game features a loading screen that is displayed while the game is loading.
  >  <br>
- >  <img width="90%" height="auto" src="">
+ >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/233828028-d2e45aed-1363-432c-a551-f0481d802b98.PNG">
  >  <br>
- >  Preleminary Results
  >  <br>
- >  <img width="90%" height="auto" src="">
+ >  At the end of each round, the game displays preliminary results that provide players with information on their progress in the current round and their overall performance. This screen may include details such as the number of events resolved, the number of civilians rescued, and the amount of damage prevented. Once the calculations for the water level increase in the next round are complete, the "Continue" button is enabled, allowing players to proceed to the next round.
  >  <br>
- >  End Screen
+ >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/233828039-755516b9-dac8-4e16-8c52-332944454020.PNG">
  >  <br>
- >  <img width="90%" height="auto" src="">
+ >  <br>
+ >  After all rounds have been completed, the game displays the final results, which provide players with a comprehensive overview of their performance throughout the game. Once the final results are displayed, players are given the option to either play again or return to the main menu.
+ >  <br>
+ >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/233828033-7479f560-a683-46bd-b106-4609a850dee9.PNG">
  >  <br>
  
  </details>
