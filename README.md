@@ -127,10 +127,16 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  > The following event requires the player to put out a fire that has broken out in a building.
  > <br>
  > <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233663185-a4143e4f-1670-4a36-b478-b54945ac2e5d.png">
+ > <br>
+ > <br>
+ > The remaining time until an event is resolved is indicated by a green circle that fills up gradually until the event is completed.
+ > <br>
+ > <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233825050-bce47bec-1498-4f84-96b9-f9bb824188c8.png">
  > </div>
  > <br>
  
 </details> 
+
 <details>
  <summary>Progression</summary>
  <br>
@@ -148,8 +154,8 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  > </div>
  > <br>
 
-
 </details> 
+
 <details>
  <summary>Different Units</summary>
  <br>
@@ -187,6 +193,7 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  > <br>
  
 </details> 
+
 <details>
  <summary>HUD</summary>
  <br>
@@ -219,14 +226,20 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  <br>
 
  >  <div align="center">
- >  The game features various types of enemies, each possessing unique attributes. These include the Base enemy, which has average health and speed compared to the others; the Speedy enemy, which is small and fast; the Tanky enemy, which is slow and has high health; and the Boss enemy, which is extremely slow and has significant health.
+ >  Floodfighters have the ability to place sandbags strategically to prevent water from reaching and damaging buildings. The following images depict the sandbags before and after they are placed by the Floodfighters.
  >  <br>
- >  <img width="80%" height="auto" src="https://user-images.githubusercontent.com/104200268/229503757-9235d158-c451-4a0a-9e74-95f9fdb5c774.gif">
+ >  <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233825448-9b449f72-2dbf-404d-bf65-725c5e01383f.png">
+ >  <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233825452-07d1abd3-07f8-4691-b326-4ceefbc73cc1.png">
  >  <br>
  >  <br>
- >  The enemies spawn from a green glowing portal or mist and begin moving along the designated path.
+ >  In the absence of sandbags, the water level is shown rising, as depicted in the following image.
  >  <br>
- >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/230767976-8d8998ef-3519-46fe-8e33-c127c37fe211.gif">
+ >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/233825543-0c6a975c-9e86-43d9-a8d4-4039bdd5f332.PNG">
+ >  <br>
+ >  <br>
+ >  When sandbags are placed by the Floodfighters, the water level is prevented from rising, as shown in the following image.
+ >  <br>
+ >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/233825544-c04cd8ce-3331-441d-be14-c32bbd30b10b.PNG">
  >  </div>
  >  <br>
  
