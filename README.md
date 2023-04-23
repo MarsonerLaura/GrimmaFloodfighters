@@ -250,16 +250,21 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  <summary>Design Process</summary>
  <br>
  
- >  <div align="center">![MainMenuIngame](https://user-images.githubusercontent.com/104200268/233670095-1bf87072-432e-4dac-b517-b9c0d951ba01.png)
-![OptionsMeu](https://user-images.githubusercontent.com/104200268/233670100-4986f48b-049d-4752-86d8-14e219ab1901.png)
-![GameScreen](https://user-images.githubusercontent.com/104200268/233670103-2bf36d3d-8c4d-42bd-8b1d-1319f3e40b38.png)
-![MainMenu](https://user-images.githubusercontent.com/104200268/233670115-23621df5-6ff7-4652-957a-0274d94f6c13.png)
-
- >  First Concepts of Menus & HUD
- >  <img width="80%" height="auto" src="">
- >  <img width="80%" height="auto" src="">
- >  <img width="80%" height="auto" src="">
- >  <img width="80%" height="auto" src="">
+ >  <div align="center">
+ >  The in-game HUD was initially designed as a rough sketch and later revised and modified to improve its functionality and aesthetics. Additionally, a color scheme was selected to ensure consistency and enhance the overall visual appeal of the game.
+ >  <br>
+ >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/233670103-2bf36d3d-8c4d-42bd-8b1d-1319f3e40b38.png">
+ >  <br>
+ >  <br>
+ >  The development team began by creating a basic menu for the game, which was then revised and refined to improve its functionality and aesthetics.
+ >  <br>
+ >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/233670115-23621df5-6ff7-4652-957a-0274d94f6c13.png">
+ >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/233670095-1bf87072-432e-4dac-b517-b9c0d951ba01.png">
+ >  <br>
+ >  <br>
+ >  After the basic menu was created and revised, the development team moved on to creating the options menu.
+ >  <br>
+ >  <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/233670100-4986f48b-049d-4752-86d8-14e219ab1901.png">
  > </div>
  > <br>
  
