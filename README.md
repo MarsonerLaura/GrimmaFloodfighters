@@ -177,12 +177,12 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  > <br>
  > To enhance the visibility of units, players can enable the "Show Unit Markers" checkbox, which will display markers above each unit for easier identification.
  > <br>
- > <img width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/233823877-5d63f170-fca3-4647-9f56-fb3112759751.png">
+ > <img width="70%" height="auto" src="https://user-images.githubusercontent.com/104200268/233823877-5d63f170-fca3-4647-9f56-fb3112759751.png">
  > <br>
  > <br>
  > Visual indicators are also provided to show whether units are inside or outside of Cars and Boats, as demonstrated below.
  > <br>
- > <img width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/233823845-6e4a8594-f3e7-49c4-ba7b-63ca81da6066.png">
+ > <img width="60%" height="auto" src="https://user-images.githubusercontent.com/104200268/233823845-6e4a8594-f3e7-49c4-ba7b-63ca81da6066.png">
  > </div>
  > <br>
  
@@ -204,12 +204,12 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  > <br>
  > Whenever a player uncovers an event, it is logged in the Event Log. By clicking on the corresponding text, the camera will automatically focus on the specific event, allowing for easy navigation and quick response.
  > <br>
- > <img width="50" height="auto" src="https://user-images.githubusercontent.com/104200268/233824681-0f402391-5b1a-41b0-99a5-7efe1e4d305e.png">
+ > <img width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/233824681-0f402391-5b1a-41b0-99a5-7efe1e4d305e.png">
  > <br>
  > <br>
  > The game interface includes various buttons for performing actions such as unloading units from cars and boats, responding to events, placing sandbags, and enabling markers for units.
  > <br>
- > <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233824686-2cccdf45-46bd-48ea-a7fa-b06dd0d81d79.png">
+ > <img width="60%" height="auto" src="https://user-images.githubusercontent.com/104200268/233824686-2cccdf45-46bd-48ea-a7fa-b06dd0d81d79.png">
  > </div>
  > <br>
  
