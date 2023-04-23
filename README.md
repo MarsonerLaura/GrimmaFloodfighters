@@ -155,34 +155,34 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  <br>
  
  > <div align="center">
- >  Floodfighters
+ >  The Floodfighters, also known as the rescue team units, are designed to move at a slower pace and have the ability to interact with various events, such as rescuing Civilians, addressing car accidents, and extinguishing fires. As the primary unit in the game, they have the exclusive capability to place sandbags for flood protection.
  > <br>
- > <img width="80%" height="auto" src="">
- > <br>
- > <br>
- > Cars
- > <br>
- > <img width="80%" height="auto" src="">
+ > <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233823897-60c7976a-8fac-408b-b6a0-a3f295334ead.png">
  > <br>
  > <br>
- > Boats
+ > Car units serve as a fast mode of transportation for both Floodfighters and Civilians on land.
  > <br>
- > <img width="80%" height="auto" src="">
-  > <br>
+ > <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233823858-fafea43a-5e69-4792-b06c-0f266af359e1.png">
  > <br>
- > Civilians
  > <br>
- > <img width="80%" height="auto" src="">
-  > <br>
+ > Boat units have the ability to transport Floodfighters and Civilians, but their movement is limited to water. Additionally, these units can identify Civilians who require assistance.
  > <br>
- > Unit Markers
+ > <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233823818-fc880ab2-8939-4305-a6f0-5b468f14a97a.png">
  > <br>
- > <img width="80%" height="auto" src="">
-  > <br>
  > <br>
- > Floodfighters in/out of cars
+ > Civilian units have a slower movement speed and need to be guided to designated evacuation areas.
  > <br>
- > <img width="80%" height="auto" src="">
+ > <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233823834-5aa05d79-14fd-4e60-9877-07e6ffd09365.png">
+ > <br>
+ > <br>
+ > To enhance the visibility of units, players can enable the "Show Unit Markers" checkbox, which will display markers above each unit for easier identification.
+ > <br>
+ > <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233823877-5d63f170-fca3-4647-9f56-fb3112759751.png">
+ > <br>
+ > <br>
+ > Visual indicators are also provided to show whether units are inside or outside of Cars and Boats, as demonstrated below.
+ > <br>
+ > <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233823845-6e4a8594-f3e7-49c4-ba7b-63ca81da6066.png">!
  > </div>
  > <br>
  
