@@ -272,11 +272,10 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
 <details>
  <summary>Elements</summary>
  <br>
- ![GrimmaUI2](https://user-images.githubusercontent.com/104200268/233670154-21147e12-1a3f-490f-a8d9-eb9f8a567a71.png)
 
  >  <div align="center">
- >  Different UI Elements that are used in the game inkluding Buttons, Panels, Bars and Checkboxes.
- >  <img width="80%" height="auto" src="">
+ >  The game interface includes a variety of UI elements, such as buttons, panels, bars, and checkboxes, to provide players with a range of interactive options and information.
+ >  <img width="80%" height="auto" src="https://user-images.githubusercontent.com/104200268/233670154-21147e12-1a3f-490f-a8d9-eb9f8a567a71.png">
  > </div>
  > <br>
  
