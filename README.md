@@ -44,7 +44,7 @@
 
 <p>
  <div>
- <img align="right" width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/233834424-d1864842-b7a3-4be9-b43e-b73535957c01.png">
+ <img align="right" width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/233834412-eb3a5329-5fd7-4bf0-8e89-69b1c1eb776e.png">
  <br>
  <br>
   <h1>Responsibilities</h1>
@@ -60,7 +60,7 @@
  
 <p>
  <div>
- <img align="left" width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/233834412-eb3a5329-5fd7-4bf0-8e89-69b1c1eb776e.png">
+ <img align="left" width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/233834424-d1864842-b7a3-4be9-b43e-b73535957c01.png">
  <br>
  <br>
  <h1>Features</h1>
