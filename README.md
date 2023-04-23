@@ -8,6 +8,7 @@
 <br>
 
 <div align="center">
+
  
  `Unity`
  `C#`
@@ -24,7 +25,7 @@
 
 <p>
 
- <img align="left" width="53%" height="auto" src="https://user-images.githubusercontent.com/104200268/233834206-e4c56753-5cc0-4526-82e2-24b1ed082c48.PNG">
+ <img align="left" width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/233834421-5d535369-d90b-45dd-ad76-92b8c4743312.jpg">
  <br>
  <h1>About</h1>
 
@@ -43,7 +44,7 @@
 
 <p>
  <div>
- <img align="right" width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/233834160-c2cc6a10-5ee4-4474-a2ae-d39e116aa5d8.png">
+ <img align="right" width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/233834424-d1864842-b7a3-4be9-b43e-b73535957c01.png">
  <br>
  <br>
   <h1>Responsibilities</h1>
@@ -59,7 +60,7 @@
  
 <p>
  <div>
- <img align="left" width="53%" height="auto" src="https://user-images.githubusercontent.com/104200268/233834250-1b97c524-89d6-40c3-9e05-0900da337f83.PNG">
+ <img align="left" width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/233834412-eb3a5329-5fd7-4bf0-8e89-69b1c1eb776e.png">
  <br>
  <br>
  <h1>Features</h1>
