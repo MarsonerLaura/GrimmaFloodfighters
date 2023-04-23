@@ -24,9 +24,10 @@
 
 <p>
 
- <img align="left" width="53%" height="auto" src="">
+ <img align="left" width="53%" height="auto" src="https://user-images.githubusercontent.com/104200268/233834206-e4c56753-5cc0-4526-82e2-24b1ed082c48.PNG">
  <br>
  <h1>About</h1>
+
  <li><b>Role:</b>&emsp;&emsp;&emsp;&emsp;UI/UX Designer, Programmer</li>
  <li><b>Duration:</b>&emsp;&emsp;2 Months</li>
  <li><b>Group Size:</b>&emsp;4</li>
@@ -42,23 +43,23 @@
 
 <p>
  <div>
- <img align="right" width="50%" height="auto" src="">
+ <img align="right" width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/233834160-c2cc6a10-5ee4-4474-a2ae-d39e116aa5d8.png">
  <br>
-  <br>
- <h1>Responsibilities</h1>
- <li>Geodata Integration</li>
- <li>Building-data Integration</li>
- <li>UI Implementation</li>
- <li>Event log Implementation</li>
- <li>UI Elements Creation</li>
- <li>Menu/Results Implementation</li>
+ <br>
+  <h1>Responsibilities</h1>
+  <li>Geodata Integration</li>
+  <li>Building-data Integration</li>
+  <li>UI Implementation</li>
+  <li>Event log Implementation</li>
+  <li>UI Elements Creation</li>
+  <li>Menu/Results Implementation</li>
  <br>
  </div>
 </p>
  
 <p>
  <div>
- <img align="left" width="53%" height="auto" src="">
+ <img align="left" width="53%" height="auto" src="https://user-images.githubusercontent.com/104200268/233834250-1b97c524-89d6-40c3-9e05-0900da337f83.PNG">
  <br>
  <br>
  <h1>Features</h1>
