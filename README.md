@@ -274,7 +274,7 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  <br>
 
  >  <div align="center">
- >  The game interface includes a variety of UI elements, such as buttons, panels, bars, and checkboxes, to provide players with a range of interactive options and information.
+ >  The game interface includes a variety of UI elements, such as buttons, panels, bars, and checkboxes, to provide players with a range of interactive options and information. The UI elements were created using the Krita tool, imported into Unity and modified to ensure that they were optimized for the game's interface.
  >  <img width="80%" height="auto" src="https://user-images.githubusercontent.com/104200268/233670154-21147e12-1a3f-490f-a8d9-eb9f8a567a71.png">
  > </div>
  > <br>
