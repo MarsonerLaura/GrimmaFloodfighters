@@ -177,12 +177,12 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  > <br>
  > To enhance the visibility of units, players can enable the "Show Unit Markers" checkbox, which will display markers above each unit for easier identification.
  > <br>
- > <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233823877-5d63f170-fca3-4647-9f56-fb3112759751.png">
+ > <img width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/233823877-5d63f170-fca3-4647-9f56-fb3112759751.png">
  > <br>
  > <br>
  > Visual indicators are also provided to show whether units are inside or outside of Cars and Boats, as demonstrated below.
  > <br>
- > <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233823845-6e4a8594-f3e7-49c4-ba7b-63ca81da6066.png">!
+ > <img width="50%" height="auto" src="https://user-images.githubusercontent.com/104200268/233823845-6e4a8594-f3e7-49c4-ba7b-63ca81da6066.png">
  > </div>
  > <br>
  
@@ -192,13 +192,24 @@ alt="Watch Trailer on YouTube" align="right" width="60%" height="auto" border="1
  <br>
  
  > <div align="center">
- > In the game, players can collaborate and divide responsibilities to enhance their gameplay. For instance, one player can focus on moving and placing the towers while the other player collects coins to fund upgrades.
- > <img width="80%" height="auto" src="https://user-images.githubusercontent.com/104200268/230766902-424a0e98-cc68-4088-86f0-2f86f8d5a425.gif">
+ > HUD
+ > <br>
+ > <img width="90%" height="auto" src="https://user-images.githubusercontent.com/104200268/233824792-4f5bd784-ecf3-4fef-9451-0f2b436d801e.PNG">
  > <br>
  > <br>
- > The players can interact with the towers differently, and the corresponding key required for interaction is displayed above the tower.
+ > The timer displays the remaining time before the round concludes and the water level subsequently increases.
  > <br>
- > <img width="80%" height="auto" src="https://user-images.githubusercontent.com/104200268/230766896-ea3e574d-2b79-422a-88f5-0fc5b0cd174a.gif">
+ > <img width="60%" height="auto" src="https://user-images.githubusercontent.com/104200268/233824591-afd264c5-6f0d-4599-af3a-a689a147d67f.png">
+ > <br>
+ > <br>
+ > Whenever a player uncovers an event, it is logged in the Event Log. By clicking on the corresponding text, the camera will automatically focus on the specific event, allowing for easy navigation and quick response.
+ > <br>
+ > <img width="50" height="auto" src="https://user-images.githubusercontent.com/104200268/233824681-0f402391-5b1a-41b0-99a5-7efe1e4d305e.png">
+ > <br>
+ > <br>
+ > The game interface includes various buttons for performing actions such as unloading units from cars and boats, responding to events, placing sandbags, and enabling markers for units.
+ > <br>
+ > <img width="40%" height="auto" src="https://user-images.githubusercontent.com/104200268/233824686-2cccdf45-46bd-48ea-a7fa-b06dd0d81d79.png">
  > </div>
  > <br>
  
